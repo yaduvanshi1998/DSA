@@ -49,3 +49,6 @@ def topK_frequent(nums,k):
     return result
 
 print(topK_frequent(nums,k))
+
+# Time complexity = O(n + m log m)
+# Space complexity = O(m)
