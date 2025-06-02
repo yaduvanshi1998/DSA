@@ -22,6 +22,8 @@ strs[i] contains only UTF-8 characters.'''
 
 strs =  ["neet","code","love","you"]
 
+strs = ["we","say",":","yes"]
+
 def encode(strs):
     encoded_strs = ""
     for i in strs:
@@ -46,3 +48,5 @@ def decode(encoded_data):
 print(encode(strs))
 print(decode(encoded_data))
 
+# Time complexity = O(n)
+# Space complexity = O(n)
